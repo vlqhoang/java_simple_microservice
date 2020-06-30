@@ -1,0 +1,6 @@
+Starting zippkin server and listen to rabbit mq:
+-> java -jar ./zipkin/zipkin-server/target/zipkin-server-*exec.jar
+-> rabbitmq-server --RABBIT_URI=amqp://localhost
+
+Kill rabbit-mq process
+-> rabbitmqctl stop
